@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <div class="output">
+        <ul>
+        </ul>
+    </div>
+    <p class ="para1" id="para01">Hello Javascript</p>
+    <script>
+   console.log("hello world");
+console.log(document.getElementById=('para01').innerHTML);
+document.body.style.backgroundColor = 'red'
+const list = document.querySelector('.output ul');
+list.innerHTML = ' ';
+
+function system(name, price, discount, code) {
+    this.itemname = name,
+    this.price = price,
+    this.discount = discount,
+    this.itemcode = code,
+    this.discountValue = function() {
+        dp = 0.80 * price,           
+        return dp,                   
+    }                                 
+}
+const course = new system('oneplus', 10000, 20, 'F10');
+course.discoutValue;
+    </script>
+</body>
+</html>
